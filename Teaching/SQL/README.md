@@ -1,55 +1,34 @@
-# SQL Exercise with HarryPotter Data
+# SQL for Business Intelligence Instructional Module
 
-Exercise: SQL_exercise_data\
-https://docs.google.com/spreadsheets/d/1ZVKyKP-xmVeXDzbRzprdKfE5g2c6XrSrscbUqYuXPoI/edit?usp=sharing
+### Module Overview
+I developed this instructional curriculum to provide a comprehensive introduction to SQL as a foundational tool for data extraction and business intelligence. The material focuses on transforming raw relational data into actionable insights through structured querying techniques within the University of Toronto analytics program.
 
+### Core Technical Competencies
 
-## Solution: SQL exercise with HarryPotter Data
-### 1. Write a statement that will select the grade column from Student table
+* **Data Selection and Field Identification**
+Instruction on using SELECT statements to isolate specific variables for targeted analysis.
+* **Conditional Filtering and Logic**
+Practical labs on utilizing WHERE clauses to segment records based on precise business criteria.
+* **Data Organization and Sorting**
+Advanced modules on ordering result sets alphabetically or numerically to identify top performers.
+* **Aggregation and Statistical Summarization**
+Technical instruction on using GROUP BY and aggregate functions to calculate averages and other summary metrics.
+* **Relational Data Integration**
+Complex exercises on joining multiple tables using JOIN clauses to synthesize disparate data sources into a unified analytical view.
 
-    SELECT grade
-    FROM Student;
+### Case Study Student Performance Analytics
+The module includes a series of strategic querying challenges based on a Harry Potter themed dataset where students evaluate academic achievement across various metrics.
 
-### 2. Select all records from Student table where school_code column has the value “GF”
+* **Database Schema and Resource**
+[Student Performance Data Resource](https://docs.google.com/spreadsheets/d/1ZVKyKP-xmVeXDzbRzprdKfE5g2c6XrSrscbUqYuXPoI/edit?usp=sharing)
 
-    SELECT *
-    FROM Student
-    WHERE school_code = "GF";
+### Analytical Query Solutions
+The repository features practical solutions for common business intelligence requests.
+* **Segmented Data Retrieval**: Selecting specific performance attributes from the student population.
+* **Categorical Filtering**: Identifying specific subsets of data based on organizational codes.
+* **Trend Sorting**: Organizing records to identify pass or fail distributions.
+* **Metric Averaging**: Calculating precise performance averages for school house groups.
+* **Table Synthesis**: Integrating student and school tables to provide a comprehensive view of educational outcomes.
 
-### 3. Select all records from Student table and sort result alphabetically by column pass_fail
-
-    SELECT *
-    FROM Student
-    ORDER BY pass_fail DESC;
-
-    OR
-    
-    SELECT *
-    FROM Student
-    ORDER BY pass_fail ASC;
-
-### 4. List school code, average math, average reading and average writing score group by school code from Student table
-
-    SELECT school_code, 
-    ROUND(AVG(math),2) as avg_math, 
-    ROUND(AVG(reading),2) as avg_reading, 
-    ROUND(AVG(writing),2) as avg_writing
-    FROM Student
-    GROUP BY school_code;
-
-### 5. Select all records from Student table order by grades (A, B, C, D, F)
-
-    SELECT *
-    FROM Student
-    ORDER BY grade;
-
-### 6. Write a statement that will select school name, average math, average reading and average writing score from Student table and group by school name from School table
-
-    SELECT school, 
-    ROUND(AVG(math),2) as avg_math, 
-    ROUND(AVG(reading),2) as avg_reading, 
-    ROUND(AVG(writing),2) as avg_writing
-    FROM Student as st
-    JOIN School as sc
-    ON st.school_code = sc.school_code
-    GROUP BY school;
+### Instructional Leadership
+Designing these SQL modules required deep technical expertise combined with the ability to articulate complex database logic to students. This repository highlights my background as an Analytics Instructor and my proficiency in managing relational database systems to drive business value.
