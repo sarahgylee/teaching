@@ -4,12 +4,12 @@
 This repository serves as a centralized hub for the instructional materials and technical curriculum I developed as an Analytics Instructor at the University of Toronto. The content is designed to bridge the gap between academic theory and the practical data engineering skills required in modern business environments.
 
 ### Core Technical Competencies
-* **Microsoft Excel for Analytics**
-Advanced spreadsheet modeling including complex formulas and pivot tables for rapid business data processing.
 * **SQL for Business Intelligence**
 Practical modules on relational database querying and data extraction techniques for actionable insights.
 * **Python Data Ecosystem**
 Data manipulation labs focused on Pandas and automated workflows for cleaning large scale datasets.
+* **Microsoft Excel for Analytics**
+Advanced spreadsheet modeling including complex formulas and pivot tables for rapid business data processing.
 * **Tableau Visualization**
 Strategic dashboarding exercises designed to translate complex metrics into intuitive visual narratives for stakeholders.
 
