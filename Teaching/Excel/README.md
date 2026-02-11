@@ -19,8 +19,8 @@ The module features a Harry Potter centered dataset where students apply analyti
 
 * **Practical Exercise**
 [Student Performance Data Resource](https://docs.google.com/spreadsheets/d/1-wApAZ8rdltZnrq9fYySi6pVvulupmYmxRZxfEVN6KA/edit?usp=sharing)
-* **Detailed Solution**
-[Analytical Walkthrough and Solution Guide](https://drive.google.com/file/d/1A7ukJxW72OWSOY6n-Pg0UrJhQID2Jroj/view?usp=sharing)
+* **Solution**
+[Student Performance Solution](https://drive.google.com/file/d/1A7ukJxW72OWSOY6n-Pg0UrJhQID2Jroj/view?usp=sharing)
 
 ### Instructional Leadership
 Designing these modules required deep technical expertise combined with the ability to articulate complex methodologies for diverse skill levels. This repository showcases my commitment to mentorship and the development of impactful educational content.
